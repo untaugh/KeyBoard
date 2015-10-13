@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/oscu/Documents/Projects/KeyBoard/pcb2/keyboard2.sch</source>
+    <date>Tue 13 Oct 2015 10:38:21 PM CEST</date>
+    <tool>Eeschema (after 2015-mar-04 BZR unknown)-product</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>keyboard2.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="X1">
+      <value>resonator</value>
+      <footprint>oscu_footprints:resonator_murata_smd</footprint>
+      <fields>
+        <field name="DigikeyPart">490-1219-1-ND</field>
+      </fields>
+      <libsource lib="oscu_kicad_lib" part="resonator"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55E5E91E</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>atmega8u2-qfn</value>
+      <footprint>oscu_footprints:qfn32_nosilk</footprint>
+      <fields>
+        <field name="DigikeyPart">ATMEGA32U2-MURCT</field>
+      </fields>
+      <libsource lib="oscu_kicad_lib" part="atmega8u2-qfn"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55E5F036</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>usb_pcb</value>
+      <footprint>oscu_footprints:usb_pcb</footprint>
+      <libsource lib="oscu_kicad_lib" part="usb_pcb"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55E5F48F</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>22</value>
+      <footprint>oscu_footprints:R_0402_nosilk</footprint>
+      <fields>
+        <field name="DigikeyPart">311-22.0LRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55E5F598</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>22</value>
+      <footprint>oscu_footprints:R_0402_nosilk</footprint>
+      <fields>
+        <field name="DigikeyPart">311-22.0LRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55E5F63B</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>led1</value>
+      <footprint>oscu_footprints:LED_0603_nosilk</footprint>
+      <fields>
+        <field name="DigikeyPart">160-1446-1-ND</field>
+      </fields>
+      <libsource lib="oscu_kicad_lib" part="led1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55E5F935</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>led1</value>
+      <footprint>oscu_footprints:LED_0603_nosilk</footprint>
+      <fields>
+        <field name="DigikeyPart">160-1447-1-ND</field>
+      </fields>
+      <libsource lib="oscu_kicad_lib" part="led1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55E5F9E2</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>led1</value>
+      <footprint>oscu_footprints:LED_0603_nosilk</footprint>
+      <fields>
+        <field name="DigikeyPart">160-1448-1-ND</field>
+      </fields>
+      <libsource lib="oscu_kicad_lib" part="led1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55E5FA0E</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>led1</value>
+      <footprint>oscu_footprints:LED_0603_nosilk</footprint>
+      <fields>
+        <field name="DigikeyPart">160-1647-1-ND</field>
+      </fields>
+      <libsource lib="oscu_kicad_lib" part="led1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55E5FA50</tstamp>
+    </comp>
+    <comp ref="B1">
+      <value>btn_sp2</value>
+      <footprint>oscu_footprints:button_smd_panasonic</footprint>
+      <fields>
+        <field name="DigikeyPart">P8045SCT-ND</field>
+      </fields>
+      <libsource lib="oscu_kicad_lib" part="btn_sp2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55E74282</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>270</value>
+      <footprint>oscu_footprints:R_0402_nosilk</footprint>
+      <fields>
+        <field name="DigikeyPart">311-270LRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55E89128</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>270</value>
+      <footprint>oscu_footprints:R_0402_nosilk</footprint>
+      <fields>
+        <field name="DigikeyPart">311-270LRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55E89208</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>270</value>
+      <footprint>oscu_footprints:R_0402_nosilk</footprint>
+      <fields>
+        <field name="DigikeyPart">311-270LRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55E89266</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>270</value>
+      <footprint>oscu_footprints:R_0402_nosilk</footprint>
+      <fields>
+        <field name="DigikeyPart">311-270LRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55E892C3</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>CONN_01X09</value>
+      <footprint>oscu_footprints:connector_smd_round2</footprint>
+      <libsource lib="conn" part="CONN_01X09"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55E8A32F</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>1u</value>
+      <footprint>oscu_footprints:C_0402_nosilk</footprint>
+      <fields>
+        <field name="DigikeyPart">311-1702-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55E8A823</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>1u</value>
+      <footprint>oscu_footprints:C_0402_nosilk</footprint>
+      <fields>
+        <field name="DigikeyPart">311-1702-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>561ABA24</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>1u</value>
+      <footprint>oscu_footprints:C_0402_nosilk</footprint>
+      <fields>
+        <field name="DigikeyPart">311-1702-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>561AC09E</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>100n</value>
+      <footprint>oscu_footprints:C_0402_nosilk</footprint>
+      <fields>
+        <field name="DigikeyPart">311-1335-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>561ACBA3</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>4k7</value>
+      <footprint>oscu_footprints:R_0402_nosilk</footprint>
+      <fields>
+        <field name="DigikeyPart">311-4.7KLRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>561ACF01</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X09">
+      <footprints>
+        <fp>Pin_Header_Straight_1X09</fp>
+        <fp>Pin_Header_Angled_1X09</fp>
+        <fp>Socket_Strip_Straight_1X09</fp>
+        <fp>Socket_Strip_Angled_1X09</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X09</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+        <pin num="9" name="P9" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="oscu_kicad_lib" part="atmega8u2-qfn">
+      <footprints>
+        <fp>QFN32</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">atmega8u2-qfn</field>
+      </fields>
+      <pins>
+        <pin num="1" name="XTAL1" type="input"/>
+        <pin num="2" name="XTAL2(PC0)" type="input"/>
+        <pin num="3" name="GND" type="input"/>
+        <pin num="4" name="VCC" type="input"/>
+        <pin num="5" name="PC2" type="input"/>
+        <pin num="6" name="PD0" type="input"/>
+        <pin num="7" name="PD1" type="input"/>
+        <pin num="8" name="PD2" type="input"/>
+        <pin num="9" name="PD3" type="input"/>
+        <pin num="10" name="PD4" type="input"/>
+        <pin num="11" name="PD5" type="input"/>
+        <pin num="12" name="PD6" type="input"/>
+        <pin num="13" name="PD7" type="input"/>
+        <pin num="14" name="PB0" type="input"/>
+        <pin num="15" name="PB1" type="input"/>
+        <pin num="16" name="PB2" type="input"/>
+        <pin num="17" name="PB3" type="input"/>
+        <pin num="18" name="PB4" type="input"/>
+        <pin num="19" name="PB5" type="input"/>
+        <pin num="20" name="PB6" type="input"/>
+        <pin num="21" name="PB7" type="input"/>
+        <pin num="22" name="PC7" type="input"/>
+        <pin num="23" name="PC6" type="input"/>
+        <pin num="24" name="Reset(PC1)" type="input"/>
+        <pin num="25" name="PC5" type="input"/>
+        <pin num="26" name="PC4" type="input"/>
+        <pin num="27" name="UCAP" type="input"/>
+        <pin num="28" name="UGND" type="input"/>
+        <pin num="29" name="D+" type="input"/>
+        <pin num="30" name="D-" type="input"/>
+        <pin num="31" name="UVCC" type="input"/>
+        <pin num="32" name="AVCC" type="input"/>
+        <pin num="33" name="Center_pin" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="oscu_kicad_lib" part="btn_sp2">
+      <fields>
+        <field name="Reference">B</field>
+        <field name="Value">btn_sp2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="p1" type="input"/>
+        <pin num="2" name="p2" type="input"/>
+        <pin num="3" name="p3" type="input"/>
+        <pin num="4" name="p4" type="input"/>
+        <pin num="5" name="gnd" type="input"/>
+        <pin num="6" name="gnd" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="oscu_kicad_lib" part="led1">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">led1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="anode" type="input"/>
+        <pin num="2" name="cathode" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="oscu_kicad_lib" part="resonator">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">resonator</field>
+      </fields>
+      <pins>
+        <pin num="1" name="p1" type="input"/>
+        <pin num="2" name="p2" type="input"/>
+        <pin num="3" name="p3" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="oscu_kicad_lib" part="usb_pcb">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">usb_pcb</field>
+      </fields>
+      <pins>
+        <pin num="1" name="V+" type="input"/>
+        <pin num="2" name="D-" type="input"/>
+        <pin num="3" name="D+" type="input"/>
+        <pin num="4" name="GND" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="oscu_kicad_lib">
+      <uri>/home/oscu/Documents/oscu_kicad_lib.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(B1-Pad3)">
+      <node ref="B1" pin="3"/>
+      <node ref="B1" pin="4"/>
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="2" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1"/>
+      <node ref="U1" pin="27"/>
+    </net>
+    <net code="3" name="Net-(J1-Pad3)">
+      <node ref="R1" pin="1"/>
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="4" name="Net-(R2-Pad2)">
+      <node ref="U1" pin="30"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="5" name="Net-(U1-Pad2)">
+      <node ref="U1" pin="2"/>
+      <node ref="X1" pin="3"/>
+    </net>
+    <net code="6" name="Net-(R1-Pad2)">
+      <node ref="U1" pin="29"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="7" name="Net-(J1-Pad2)">
+      <node ref="R2" pin="1"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="8" name="Net-(U1-Pad1)">
+      <node ref="X1" pin="1"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="9" name="/MISO">
+      <node ref="U1" pin="17"/>
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="10" name="/SCLK">
+      <node ref="U1" pin="15"/>
+      <node ref="J2" pin="4"/>
+    </net>
+    <net code="11" name="/MOSI">
+      <node ref="U1" pin="16"/>
+      <node ref="J2" pin="5"/>
+    </net>
+    <net code="12" name="Net-(R4-Pad1)">
+      <node ref="U1" pin="6"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="13" name="Net-(R3-Pad1)">
+      <node ref="U1" pin="7"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="14" name="GND">
+      <node ref="C2" pin="2"/>
+      <node ref="J1" pin="4"/>
+      <node ref="J2" pin="3"/>
+      <node ref="J2" pin="8"/>
+      <node ref="U1" pin="28"/>
+      <node ref="D1" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="B1" pin="6"/>
+      <node ref="U1" pin="33"/>
+      <node ref="U1" pin="3"/>
+      <node ref="X1" pin="2"/>
+      <node ref="B1" pin="5"/>
+      <node ref="B1" pin="2"/>
+      <node ref="B1" pin="1"/>
+      <node ref="D4" pin="2"/>
+      <node ref="D3" pin="2"/>
+      <node ref="D2" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C3" pin="2"/>
+    </net>
+    <net code="15" name="+5V">
+      <node ref="U1" pin="31"/>
+      <node ref="U1" pin="32"/>
+      <node ref="J1" pin="1"/>
+      <node ref="J2" pin="2"/>
+      <node ref="U1" pin="4"/>
+      <node ref="C3" pin="1"/>
+      <node ref="R7" pin="1"/>
+      <node ref="C2" pin="1"/>
+    </net>
+    <net code="16" name="Net-(R5-Pad1)">
+      <node ref="U1" pin="18"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="17" name="Net-(R6-Pad1)">
+      <node ref="R6" pin="1"/>
+      <node ref="U1" pin="19"/>
+    </net>
+    <net code="18" name="Net-(D2-Pad1)">
+      <node ref="R4" pin="2"/>
+      <node ref="D2" pin="1"/>
+    </net>
+    <net code="19" name="Net-(D1-Pad1)">
+      <node ref="R3" pin="2"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="20" name="Net-(D3-Pad1)">
+      <node ref="R5" pin="2"/>
+      <node ref="D3" pin="1"/>
+    </net>
+    <net code="21" name="Net-(D4-Pad1)">
+      <node ref="R6" pin="2"/>
+      <node ref="D4" pin="1"/>
+    </net>
+    <net code="22" name="/TXD">
+      <node ref="U1" pin="9"/>
+      <node ref="J2" pin="6"/>
+    </net>
+    <net code="23" name="/RXD">
+      <node ref="U1" pin="8"/>
+      <node ref="J2" pin="9"/>
+    </net>
+    <net code="24" name="Net-(U1-Pad26)">
+      <node ref="U1" pin="26"/>
+    </net>
+    <net code="25" name="Net-(U1-Pad11)">
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="26" name="Net-(U1-Pad5)">
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="27" name="Net-(U1-Pad20)">
+      <node ref="U1" pin="20"/>
+    </net>
+    <net code="28" name="Net-(U1-Pad21)">
+      <node ref="U1" pin="21"/>
+    </net>
+    <net code="29" name="Net-(U1-Pad12)">
+      <node ref="U1" pin="12"/>
+    </net>
+    <net code="30" name="Net-(U1-Pad22)">
+      <node ref="U1" pin="22"/>
+    </net>
+    <net code="31" name="Net-(U1-Pad13)">
+      <node ref="U1" pin="13"/>
+    </net>
+    <net code="32" name="Net-(U1-Pad23)">
+      <node ref="U1" pin="23"/>
+    </net>
+    <net code="33" name="Net-(U1-Pad14)">
+      <node ref="U1" pin="14"/>
+    </net>
+    <net code="34" name="Net-(U1-Pad25)">
+      <node ref="U1" pin="25"/>
+    </net>
+    <net code="35" name="/RESET">
+      <node ref="J2" pin="7"/>
+      <node ref="R7" pin="2"/>
+      <node ref="C4" pin="1"/>
+      <node ref="U1" pin="24"/>
+    </net>
+  </nets>
+</export>

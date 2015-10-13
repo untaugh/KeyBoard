@@ -1,0 +1,9 @@
+Code is using LUFA usb libarary, and the code is based on the LUFA keyboard demo. 
+
+How it is intended to work:
+
+- On insert will emulate a keyboard and type the password.
+- On pressing the button, will type the password again.
+- On holding the button while inserting the device, and keeping it pressed for few seconds, will enter bootloader more. 
+- On holding the button pressed for more than 15 seconds, will enter password change mode. Repeated presses of the button will now generate one additional character. To save this password hold the button again for 15 seconds.
+

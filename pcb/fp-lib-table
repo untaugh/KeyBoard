@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name oscu_footprints)(type KiCad)(uri /home/oscu/Documents/oscu_footprints.pretty)(options "")(descr ""))
+  (lib (name Desktop)(type KiCad)(uri /home/oscu/Desktop)(options "")(descr ""))
+  (lib (name pcb_graphics)(type KiCad)(uri /home/oscu/Documents/Projects/KeyBoard/pcb_graphics)(options "")(descr ""))
+)
