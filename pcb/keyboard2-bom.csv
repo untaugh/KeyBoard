@@ -1,4 +1,4 @@
-Date:,Tue 13 Oct 2015 10:38:21 PM CEST
+Date:,Sun 18 Oct 2015 06:18:33 PM CEST
 Tool:,Eeschema (after 2015-mar-04 BZR unknown)-product
 Ref,Qnty,Value,Cmp name,Footprint,Description,Vendor,Digikey Part
 B1 ,1,btn_sp2,btn_sp2,oscu_footprints:button_smd_panasonic,,,P8045SCT-ND
@@ -8,7 +8,8 @@ D1 D2 D3 D4 ,4,led1,led1,oscu_footprints:LED_0603_nosilk,,,160-1647-1-ND
 J1 ,1,usb_pcb,usb_pcb,oscu_footprints:usb_pcb,,,
 J2 ,1,CONN_01X09,CONN_01X09,oscu_footprints:connector_smd_round2,,,
 R1 R2 ,2,22,R,oscu_footprints:R_0402_nosilk,Resistor,,311-22.0LRCT-ND
-R3 R4 R5 R6 ,4,270,R,oscu_footprints:R_0402_nosilk,Resistor,,311-270LRCT-ND
+R3 R4 R6 ,3,270,R,oscu_footprints:R_0402_nosilk,Resistor,,311-270LRCT-ND
+R5 ,1,1k,R,oscu_footprints:R_0402_nosilk,Resistor,,311-1KLBCT-ND
 R7 ,1,4k7,R,oscu_footprints:R_0402_nosilk,Resistor,,311-4.7KLRCT-ND
 U1 ,1,atmega8u2-qfn,atmega8u2-qfn,oscu_footprints:qfn32_nosilk,,,ATMEGA32U2-MURCT
 X1 ,1,resonator,resonator,oscu_footprints:resonator_murata_smd,,,490-1219-1-ND

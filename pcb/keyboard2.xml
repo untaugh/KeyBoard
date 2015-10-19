@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>/home/oscu/Documents/Projects/KeyBoard/pcb2/keyboard2.sch</source>
-    <date>Tue 13 Oct 2015 10:38:21 PM CEST</date>
+    <source>/home/oscu/Documents/Projects/KeyBoard/pcb/keyboard2.sch</source>
+    <date>Sun 18 Oct 2015 06:18:33 PM CEST</date>
     <tool>Eeschema (after 2015-mar-04 BZR unknown)-product</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -137,10 +137,10 @@
       <tstamp>55E89208</tstamp>
     </comp>
     <comp ref="R5">
-      <value>270</value>
+      <value>1k</value>
       <footprint>oscu_footprints:R_0402_nosilk</footprint>
       <fields>
-        <field name="DigikeyPart">311-270LRCT-ND</field>
+        <field name="DigikeyPart">311-1KLBCT-ND</field>
       </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
@@ -227,21 +227,6 @@
       <fields>
         <field name="Reference">C</field>
         <field name="Value">C</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="device" part="R">
-      <description>Resistor</description>
-      <footprints>
-        <fp>R_*</fp>
-        <fp>Resistor_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">R</field>
-        <field name="Value">R</field>
       </fields>
       <pins>
         <pin num="1" name="~" type="passive"/>
@@ -360,6 +345,21 @@
         <pin num="2" name="D-" type="input"/>
         <pin num="3" name="D+" type="input"/>
         <pin num="4" name="GND" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
   </libparts>
