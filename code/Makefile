@@ -1,4 +1,4 @@
-MCU          = atmega8u2
+MCU          = atmega32u2
 ARCH         = AVR8
 F_CPU        = 8000000
 F_USB        = $(F_CPU)
@@ -22,7 +22,7 @@ include $(LUFA_PATH)/Build/lufa_sources.mk
 include $(LUFA_PATH)/Build/lufa_build.mk
 #include $(LUFA_PATH)/Build/lufa_cppcheck.mk
 #include $(LUFA_PATH)/Build/lufa_doxygen.mk
-#include $(LUFA_PATH)/Build/lufa_dfu.mk
+include $(LUFA_PATH)/Build/lufa_dfu.mk
 #include $(LUFA_PATH)/Build/lufa_hid.mk
 include $(LUFA_PATH)/Build/lufa_avrdude.mk
 #include $(LUFA_PATH)/Build/lufa_atprogram.mk

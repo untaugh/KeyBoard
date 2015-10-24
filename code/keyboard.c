@@ -21,10 +21,10 @@ enum states {
   STATE_RECONFIG, 
 };
 
-#define RED_LED PD0
-#define GREEN_LED PD1
-#define YELLOW_LED PC7
-#define BLUE_LED PC6
+#define RED_LED PD1
+#define GREEN_LED PD0
+#define YELLOW_LED PB5
+#define BLUE_LED PB4
 
 // set and clear functions for leds
 static void set_red(void)
@@ -39,12 +39,12 @@ static void set_green(void)
 
 static void set_blue(void)
 {
-  PORTC |= _BV(BLUE_LED);
+  PORTB |= _BV(BLUE_LED);
 }
 
 static void set_yellow(void)
 {
-  PORTC |= _BV(YELLOW_LED);
+  PORTB |= _BV(YELLOW_LED);
 }
 
 static void clr_red(void)
@@ -59,12 +59,12 @@ static void clr_green(void)
 
 static void clr_blue(void)
 {
-  PORTC &= ~_BV(BLUE_LED);
+  PORTB &= ~_BV(BLUE_LED);
 }
 
 static void clr_yellow(void)
 {
-  PORTC &= ~_BV(YELLOW_LED);
+  PORTB &= ~_BV(YELLOW_LED);
 }
 
 
@@ -122,7 +122,7 @@ int main(void)
 
   // setup ports
   DDRD |= _BV(RED_LED) | _BV(GREEN_LED);
-  DDRC |= _BV(BLUE_LED) | _BV(YELLOW_LED);
+  DDRB |= _BV(BLUE_LED) | _BV(YELLOW_LED);
   
   blinkmode_setset(&set_red,0);
   blinkmode_setclr(&clr_red,0);
