@@ -1,10 +1,13 @@
-Date:,Sun 18 Oct 2015 06:18:33 PM CEST
+Date:,Mon 19 Oct 2015 10:09:02 PM CEST
 Tool:,Eeschema (after 2015-mar-04 BZR unknown)-product
 Ref,Qnty,Value,Cmp name,Footprint,Description,Vendor,Digikey Part
 B1 ,1,btn_sp2,btn_sp2,oscu_footprints:button_smd_panasonic,,,P8045SCT-ND
 C1 C2 C3 ,3,1u,C,oscu_footprints:C_0402_nosilk,Unpolarized capacitor,,311-1702-1-ND
 C4 ,1,100n,C,oscu_footprints:C_0402_nosilk,Unpolarized capacitor,,311-1335-1-ND
-D1 D2 D3 D4 ,4,led1,led1,oscu_footprints:LED_0603_nosilk,,,160-1647-1-ND
+D1 ,1,led_red,led1,oscu_footprints:LED_0603_nosilk,,,160-1446-1-ND
+D2 ,1,led_green,led1,oscu_footprints:LED_0603_nosilk,,,160-1447-1-ND
+D3 ,1,led_blue,led1,oscu_footprints:LED_0603_nosilk,,,160-1448-1-ND
+D4 ,1,led_yellow,led1,oscu_footprints:LED_0603_nosilk,,,160-1647-1-ND
 J1 ,1,usb_pcb,usb_pcb,oscu_footprints:usb_pcb,,,
 J2 ,1,CONN_01X09,CONN_01X09,oscu_footprints:connector_smd_round2,,,
 R1 R2 ,2,22,R,oscu_footprints:R_0402_nosilk,Resistor,,311-22.0LRCT-ND

@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/oscu/Documents/Projects/KeyBoard/pcb/keyboard2.sch</source>
-    <date>Sun 18 Oct 2015 06:18:33 PM CEST</date>
+    <date>Mon 19 Oct 2015 10:09:02 PM CEST</date>
     <tool>Eeschema (after 2015-mar-04 BZR unknown)-product</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -67,7 +67,7 @@
       <tstamp>55E5F63B</tstamp>
     </comp>
     <comp ref="D1">
-      <value>led1</value>
+      <value>led_red</value>
       <footprint>oscu_footprints:LED_0603_nosilk</footprint>
       <fields>
         <field name="DigikeyPart">160-1446-1-ND</field>
@@ -77,7 +77,7 @@
       <tstamp>55E5F935</tstamp>
     </comp>
     <comp ref="D2">
-      <value>led1</value>
+      <value>led_green</value>
       <footprint>oscu_footprints:LED_0603_nosilk</footprint>
       <fields>
         <field name="DigikeyPart">160-1447-1-ND</field>
@@ -87,7 +87,7 @@
       <tstamp>55E5F9E2</tstamp>
     </comp>
     <comp ref="D3">
-      <value>led1</value>
+      <value>led_blue</value>
       <footprint>oscu_footprints:LED_0603_nosilk</footprint>
       <fields>
         <field name="DigikeyPart">160-1448-1-ND</field>
@@ -97,7 +97,7 @@
       <tstamp>55E5FA0E</tstamp>
     </comp>
     <comp ref="D4">
-      <value>led1</value>
+      <value>led_yellow</value>
       <footprint>oscu_footprints:LED_0603_nosilk</footprint>
       <fields>
         <field name="DigikeyPart">160-1647-1-ND</field>
@@ -233,6 +233,21 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="conn" part="CONN_01X09">
       <footprints>
         <fp>Pin_Header_Straight_1X09</fp>
@@ -345,21 +360,6 @@
         <pin num="2" name="D-" type="input"/>
         <pin num="3" name="D+" type="input"/>
         <pin num="4" name="GND" type="input"/>
-      </pins>
-    </libpart>
-    <libpart lib="device" part="R">
-      <description>Resistor</description>
-      <footprints>
-        <fp>R_*</fp>
-        <fp>Resistor_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">R</field>
-        <field name="Value">R</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
   </libparts>
