@@ -1,8 +1,8 @@
 #include "keyboard.h"
 #include "eeprom.h"
 #include "password.h"
+#include "scancode.h"
 #include "random.h"
-
 #include "blinkmode.h"
 
 static uint8_t random;
@@ -91,9 +91,9 @@ struct Blinkmode bm0 = {
   pattern0
 };
 
-uint8_t pattern[] = {0x01,0x02};
+uint8_t pattern[] = {0x02};
 struct Blinkmode bm1 = {
-  50,
+  100,
   sizeof(pattern),
   pattern
 };
@@ -105,11 +105,18 @@ struct Blinkmode bm2 = {
   pattern2
 };
 
-uint8_t pattern_fast_all[] = {0x0F,0x00};
+uint8_t p_blink_red[] = {0x01,0x00};
+struct Blinkmode bm_blink_red = {
+  50,
+  sizeof(p_blink_red),
+  p_blink_red
+};
+
+uint8_t p_fast_all[] = {0x0F,0x00,0x0F,0x00};
 struct Blinkmode bm_fast_all = {
-  5,
-  sizeof(pattern_fast_all),
-  pattern_fast_all
+  4,
+  sizeof(p_fast_all),
+  p_fast_all
 };
 
 /** Main program entry point. This routine configures the hardware required by the application, then
@@ -410,7 +417,7 @@ void HID_Task(void)
 ISR(INT5_vect)
 {
   // sample timer to get a random number
-  random = random_get(95);
+  random = random_get(chars_allowed_size);
   // reset timer to avoid collision with other timer interrupts. 
   TCNT1 = 0; 
 }
@@ -437,7 +444,7 @@ ISR(TIMER0_OVF_vect)
 	  blinkmode_set_pattern(&bm1);
 	  break;
 	case STATE_RECONFIG:
-	  blinkmode_set_pattern(&bm2);
+	  blinkmode_set_pattern(&bm_blink_red);
 	  break;
 	default:
 	  break;
@@ -467,7 +474,7 @@ ISR(TIMER0_OVF_vect)
 	    }
 	  else if (state == STATE_RECONFIG)
 	    {
-	      password_add(random+32);
+	      password_add(chars_allowed[random]);
 	    }
 	}
       // reset flag
