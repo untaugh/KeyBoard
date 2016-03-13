@@ -23,8 +23,8 @@ TEST(Random, Getting)
 TEST(Random, Limit)
 {
   this->faketimer = 32;
-  LONGS_EQUAL(32, random_get(65));
+  LONGS_EQUAL(8, random_get(65));
   this->faketimer = 66;
-  LONGS_EQUAL(16, random_get(50));
+  LONGS_EQUAL(12, random_get(50));
 
 }

@@ -9,5 +9,6 @@ void random_init(volatile uint8_t * timer)
 
 uint8_t random_get(uint8_t limit)
 {
-  return (*timer_p % limit);
+  double random = (double)*timer_p/255;
+  return random * limit;
 }

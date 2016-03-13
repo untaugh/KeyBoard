@@ -1,7 +1,7 @@
 TESTS = PasswordTests.cpp RandomTests.cpp
 TARGET = test.bin
 INCLUDE = -I ../
-CPPUTEST_HOME = /home/oscu/lib/cpputest
+CPPUTEST_HOME = ../../../../Software/cpputest
 CPPFLAGS += -I$(CPPUTEST_HOME)/include
 LIBRARIES = -L$(CPPUTEST_HOME)/lib -lCppUTest -lCppUTestExt
 CXXFLAGS += -include $(CPPUTEST_HOME)/include/CppUTest/MemoryLeakDetectorNewMacros.h
