@@ -1,9 +1,5 @@
-Code is using LUFA usb libarary, and the code is based on the LUFA keyboard demo. 
+USB stick with AVR ATMega32u2 microcontroller
 
-How it is intended to work:
-
-- On insert will emulate a keyboard and type the password.
-- On pressing the button, will type the password again.
-- On holding the button while inserting the device, and keeping it pressed for few seconds, will enter bootloader more. 
-- On holding the button pressed for more than 15 seconds, will enter password change mode. Repeated presses of the button will now generate one additional character. To save this password hold the button again for 15 seconds.
-
+PCB designed in KiCad.
+The code is for emulating a keyboard and typing a password from EEPROM when the button is pressed.
+It uses the LUFA usb library. 
