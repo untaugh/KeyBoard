@@ -10,7 +10,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -29,7 +28,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:oscu_kicad_lib
 LIBS:keyboard2-cache
 EELAYER 25 0
 EELAYER END
@@ -51,11 +49,11 @@ U 1 1 55E5E91E
 P 4150 2200
 F 0 "X1" H 4150 2350 60  0000 C CNN
 F 1 "resonator" H 4150 1800 60  0001 C CNN
-F 2 "oscu_footprints:resonator_murata_smd" H 4150 2200 60  0001 C CNN
+F 2 "keyboard2_footprints:resonator_murata_smd" H 4150 2200 60  0001 C CNN
 F 3 "" H 4150 2200 60  0000 C CNN
 F 4 "490-1219-1-ND" H 4150 2200 60  0001 C CNN "DigikeyPart"
 	1    4150 2200
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L atmega8u2-qfn U1
@@ -63,11 +61,11 @@ U 1 1 55E5F036
 P 4850 3100
 F 0 "U1" H 4950 4050 60  0000 C CNN
 F 1 "atmega8u2-qfn" H 5650 4050 60  0000 C CNN
-F 2 "oscu_footprints:qfn32_nosilk" H 4850 4950 60  0001 C CNN
+F 2 "keyboard2_footprints:qfn32_nosilk" H 4850 4950 60  0001 C CNN
 F 3 "" H 4850 4950 60  0000 C CNN
 F 4 "ATMEGA32U2-MURCT" H 4850 3100 60  0001 C CNN "DigikeyPart"
 	1    4850 3100
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L usb_pcb J1
@@ -75,10 +73,10 @@ U 1 1 55E5F48F
 P 7500 3550
 F 0 "J1" H 7550 3800 60  0000 C CNN
 F 1 "usb_pcb" H 7700 3300 60  0000 C CNN
-F 2 "oscu_footprints:usb_pcb" H 7500 3550 60  0001 C CNN
+F 2 "keyboard2_footprints:usb_pcb" H 7500 3550 60  0001 C CNN
 F 3 "" H 7500 3550 60  0000 C CNN
 	1    7500 3550
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L R R1
@@ -86,11 +84,11 @@ U 1 1 55E5F598
 P 6800 3400
 F 0 "R1" V 6880 3400 50  0000 C CNN
 F 1 "22" V 6800 3400 50  0000 C CNN
-F 2 "oscu_footprints:R_0402_nosilk" V 6730 3400 30  0001 C CNN
+F 2 "keyboard2_footprints:R_0402_nosilk" V 6730 3400 30  0001 C CNN
 F 3 "" H 6800 3400 30  0000 C CNN
 F 4 "311-22.0LRCT-ND" V 6800 3400 60  0001 C CNN "DigikeyPart"
 	1    6800 3400
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L R R2
@@ -98,11 +96,11 @@ U 1 1 55E5F63B
 P 6800 3650
 F 0 "R2" V 6880 3650 50  0000 C CNN
 F 1 "22" V 6800 3650 50  0000 C CNN
-F 2 "oscu_footprints:R_0402_nosilk" V 6730 3650 30  0001 C CNN
+F 2 "keyboard2_footprints:R_0402_nosilk" V 6730 3650 30  0001 C CNN
 F 3 "" H 6800 3650 30  0000 C CNN
 F 4 "311-22.0LRCT-ND" V 6800 3650 60  0001 C CNN "DigikeyPart"
 	1    6800 3650
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L led1 D1
@@ -110,11 +108,11 @@ U 1 1 55E5F935
 P 2850 3100
 F 0 "D1" H 2850 3200 60  0000 C CNN
 F 1 "led_red" H 2850 3000 60  0001 C CNN
-F 2 "oscu_footprints:LED_0603_nosilk" H 2850 3100 60  0001 C CNN
+F 2 "keyboard2_footprints:LED_0603_nosilk" H 2850 3100 60  0001 C CNN
 F 3 "" H 2850 3100 60  0000 C CNN
 F 4 "160-1446-1-ND" H 2850 3100 60  0001 C CNN "DigikeyPart"
 	1    2850 3100
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L led1 D2
@@ -122,11 +120,11 @@ U 1 1 55E5F9E2
 P 2850 2850
 F 0 "D2" H 2850 2950 60  0000 C CNN
 F 1 "led_green" H 2850 2750 60  0001 C CNN
-F 2 "oscu_footprints:LED_0603_nosilk" H 2850 2850 60  0001 C CNN
+F 2 "keyboard2_footprints:LED_0603_nosilk" H 2850 2850 60  0001 C CNN
 F 3 "" H 2850 2850 60  0000 C CNN
 F 4 "160-1447-1-ND" H 2850 2850 60  0001 C CNN "DigikeyPart"
 	1    2850 2850
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L led1 D3
@@ -134,11 +132,11 @@ U 1 1 55E5FA0E
 P 7650 2200
 F 0 "D3" H 7650 2300 60  0000 C CNN
 F 1 "led_blue" H 7650 2100 60  0001 C CNN
-F 2 "oscu_footprints:LED_0603_nosilk" H 7650 2200 60  0001 C CNN
+F 2 "keyboard2_footprints:LED_0603_nosilk" H 7650 2200 60  0001 C CNN
 F 3 "" H 7650 2200 60  0000 C CNN
 F 4 "160-1448-1-ND" H 7650 2200 60  0001 C CNN "DigikeyPart"
 	1    7650 2200
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L led1 D4
@@ -146,11 +144,11 @@ U 1 1 55E5FA50
 P 7650 2450
 F 0 "D4" H 7650 2550 60  0000 C CNN
 F 1 "led_yellow" H 7650 2350 60  0001 C CNN
-F 2 "oscu_footprints:LED_0603_nosilk" H 7650 2450 60  0001 C CNN
+F 2 "keyboard2_footprints:LED_0603_nosilk" H 7650 2450 60  0001 C CNN
 F 3 "" H 7650 2450 60  0000 C CNN
 F 4 "160-1647-1-ND" H 7650 2450 60  0001 C CNN "DigikeyPart"
 	1    7650 2450
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L btn_sp2 B1
@@ -158,11 +156,11 @@ U 1 1 55E74282
 P 3250 3950
 F 0 "B1" H 3250 4100 60  0000 C CNN
 F 1 "btn_sp2" H 3250 3850 60  0001 C CNN
-F 2 "oscu_footprints:button_smd_panasonic" H 3250 3950 60  0001 C CNN
+F 2 "keyboard2_footprints:button_smd_panasonic" H 3250 3950 60  0001 C CNN
 F 3 "" H 3250 3950 60  0000 C CNN
 F 4 "P8045SCT-ND" H 3250 3950 60  0001 C CNN "DigikeyPart"
 	1    3250 3950
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L R R3
@@ -170,11 +168,11 @@ U 1 1 55E89128
 P 3350 3100
 F 0 "R3" V 3430 3100 50  0000 C CNN
 F 1 "270" V 3350 3100 50  0000 C CNN
-F 2 "oscu_footprints:R_0402_nosilk" V 3280 3100 30  0001 C CNN
+F 2 "keyboard2_footprints:R_0402_nosilk" V 3280 3100 30  0001 C CNN
 F 3 "" H 3350 3100 30  0000 C CNN
 F 4 "311-270LRCT-ND" V 3350 3100 60  0001 C CNN "DigikeyPart"
 	1    3350 3100
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L R R4
@@ -182,11 +180,11 @@ U 1 1 55E89208
 P 3350 2850
 F 0 "R4" V 3430 2850 50  0000 C CNN
 F 1 "270" V 3350 2850 50  0000 C CNN
-F 2 "oscu_footprints:R_0402_nosilk" V 3280 2850 30  0001 C CNN
+F 2 "keyboard2_footprints:R_0402_nosilk" V 3280 2850 30  0001 C CNN
 F 3 "" H 3350 2850 30  0000 C CNN
 F 4 "311-270LRCT-ND" V 3350 2850 60  0001 C CNN "DigikeyPart"
 	1    3350 2850
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L R R5
@@ -194,11 +192,11 @@ U 1 1 55E89266
 P 7150 2200
 F 0 "R5" V 7230 2200 50  0000 C CNN
 F 1 "1k" V 7150 2200 50  0000 C CNN
-F 2 "oscu_footprints:R_0402_nosilk" V 7080 2200 30  0001 C CNN
+F 2 "keyboard2_footprints:R_0402_nosilk" V 7080 2200 30  0001 C CNN
 F 3 "" H 7150 2200 30  0000 C CNN
 F 4 "311-1KLBCT-ND" V 7150 2200 60  0001 C CNN "DigikeyPart"
 	1    7150 2200
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L R R6
@@ -206,11 +204,11 @@ U 1 1 55E892C3
 P 7150 2450
 F 0 "R6" V 7230 2450 50  0000 C CNN
 F 1 "270" V 7150 2450 50  0000 C CNN
-F 2 "oscu_footprints:R_0402_nosilk" V 7080 2450 30  0001 C CNN
+F 2 "keyboard2_footprints:R_0402_nosilk" V 7080 2450 30  0001 C CNN
 F 3 "" H 7150 2450 30  0000 C CNN
 F 4 "311-270LRCT-ND" V 7150 2450 60  0001 C CNN "DigikeyPart"
 	1    7150 2450
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L GND #PWR01
@@ -221,7 +219,7 @@ F 1 "GND" H 5400 4150 50  0000 C CNN
 F 2 "" H 5400 4300 60  0000 C CNN
 F 3 "" H 5400 4300 60  0000 C CNN
 	1    5400 4300
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND #PWR02
@@ -232,7 +230,7 @@ F 1 "GND" H 7250 3600 50  0000 C CNN
 F 2 "" H 7250 3750 60  0000 C CNN
 F 3 "" H 7250 3750 60  0000 C CNN
 	1    7250 3750
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L CONN_01X09 J2
@@ -240,10 +238,10 @@ U 1 1 55E8A32F
 P 9200 2700
 F 0 "J2" H 9200 3200 50  0000 C CNN
 F 1 "CONN_01X09" V 9300 2700 50  0000 C CNN
-F 2 "oscu_footprints:connector_smd_round2" H 9200 2700 60  0001 C CNN
+F 2 "keyboard2_footprints:connector_smd_round2" H 9200 2700 60  0001 C CNN
 F 3 "" H 9200 2700 60  0000 C CNN
 	1    9200 2700
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND #PWR03
@@ -254,7 +252,7 @@ F 1 "GND" H 3800 2500 50  0000 C CNN
 F 2 "" H 3800 2650 60  0000 C CNN
 F 3 "" H 3800 2650 60  0000 C CNN
 	1    3800 2650
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L C C1
@@ -262,11 +260,11 @@ U 1 1 55E8A823
 P 6450 4200
 F 0 "C1" H 6475 4300 50  0000 L CNN
 F 1 "1u" H 6475 4100 50  0000 L CNN
-F 2 "oscu_footprints:C_0402_nosilk" H 6488 4050 30  0001 C CNN
+F 2 "keyboard2_footprints:C_0402_nosilk" H 6488 4050 30  0001 C CNN
 F 3 "" H 6450 4200 60  0000 C CNN
 F 4 "311-1702-1-ND" H 6450 4200 60  0001 C CNN "DigikeyPart"
 	1    6450 4200
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Text Label 4400 3750 0    60   ~ 0
 SCLK
@@ -283,7 +281,7 @@ F 1 "GND" H 8650 3000 50  0000 C CNN
 F 2 "" H 8650 3150 60  0000 C CNN
 F 3 "" H 8650 3150 60  0000 C CNN
 	1    8650 3150
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Text Label 8750 2600 0    60   ~ 0
 SCLK
@@ -304,7 +302,7 @@ F 1 "GND" H 2350 4100 50  0000 C CNN
 F 2 "" H 2350 4250 60  0000 C CNN
 F 3 "" H 2350 4250 60  0000 C CNN
 	1    2350 4250
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND #PWR06
@@ -315,7 +313,7 @@ F 1 "GND" H 6450 4300 50  0000 C CNN
 F 2 "" H 6450 4450 60  0000 C CNN
 F 3 "" H 6450 4450 60  0000 C CNN
 	1    6450 4450
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L +5V #PWR07
@@ -326,7 +324,7 @@ F 1 "+5V" H 4450 1890 50  0000 C CNN
 F 2 "" H 4450 1750 60  0000 C CNN
 F 3 "" H 4450 1750 60  0000 C CNN
 	1    4450 1750
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L +5V #PWR08
@@ -337,7 +335,7 @@ F 1 "+5V" H 6550 3440 50  0000 C CNN
 F 2 "" H 6550 3300 60  0000 C CNN
 F 3 "" H 6550 3300 60  0000 C CNN
 	1    6550 3300
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Text Label 8750 3100 0    60   ~ 0
 RXD
@@ -356,7 +354,7 @@ F 1 "+5V" H 7250 3490 50  0000 C CNN
 F 2 "" H 7250 3350 60  0000 C CNN
 F 3 "" H 7250 3350 60  0000 C CNN
 	1    7250 3350
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND #PWR010
@@ -367,7 +365,7 @@ F 1 "GND" H 8250 2300 50  0000 C CNN
 F 2 "" H 8250 2450 60  0000 C CNN
 F 3 "" H 8250 2450 60  0000 C CNN
 	1    8250 2450
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L +5V #PWR011
@@ -378,7 +376,7 @@ F 1 "+5V" H 8650 2440 50  0000 C CNN
 F 2 "" H 8650 2300 60  0000 C CNN
 F 3 "" H 8650 2300 60  0000 C CNN
 	1    8650 2300
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND #PWR012
@@ -389,7 +387,7 @@ F 1 "GND" H 3250 4350 50  0000 C CNN
 F 2 "" H 3250 4500 60  0000 C CNN
 F 3 "" H 3250 4500 60  0000 C CNN
 	1    3250 4500
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L C C2
@@ -397,11 +395,11 @@ U 1 1 561ABA24
 P 6750 4200
 F 0 "C2" H 6775 4300 50  0000 L CNN
 F 1 "1u" H 6775 4100 50  0000 L CNN
-F 2 "oscu_footprints:C_0402_nosilk" H 6788 4050 30  0001 C CNN
+F 2 "keyboard2_footprints:C_0402_nosilk" H 6788 4050 30  0001 C CNN
 F 3 "" H 6750 4200 60  0000 C CNN
 F 4 "311-1702-1-ND" H 6750 4200 60  0001 C CNN "DigikeyPart"
 	1    6750 4200
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L C C3
@@ -409,11 +407,11 @@ U 1 1 561AC09E
 P 3500 2450
 F 0 "C3" H 3525 2550 50  0000 L CNN
 F 1 "1u" H 3525 2350 50  0000 L CNN
-F 2 "oscu_footprints:C_0402_nosilk" H 3538 2300 30  0001 C CNN
+F 2 "keyboard2_footprints:C_0402_nosilk" H 3538 2300 30  0001 C CNN
 F 3 "" H 3500 2450 60  0000 C CNN
 F 4 "311-1702-1-ND" H 3500 2450 60  0001 C CNN "DigikeyPart"
 	1    3500 2450
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	6150 3550 6350 3550
@@ -601,11 +599,11 @@ U 1 1 561ACBA3
 P 8050 3400
 F 0 "C4" H 8075 3500 50  0000 L CNN
 F 1 "100n" H 8075 3300 50  0000 L CNN
-F 2 "oscu_footprints:C_0402_nosilk" H 8088 3250 30  0001 C CNN
+F 2 "keyboard2_footprints:C_0402_nosilk" H 8088 3250 30  0001 C CNN
 F 3 "" H 8050 3400 60  0000 C CNN
 F 4 "311-1335-1-ND" H 8050 3400 60  0001 C CNN "DigikeyPart"
 	1    8050 3400
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L R R7
@@ -613,11 +611,11 @@ U 1 1 561ACF01
 P 8050 3000
 F 0 "R7" V 8130 3000 50  0000 C CNN
 F 1 "4k7" V 8050 3000 50  0000 C CNN
-F 2 "oscu_footprints:R_0402_nosilk" V 7980 3000 30  0001 C CNN
+F 2 "keyboard2_footprints:R_0402_nosilk" V 7980 3000 30  0001 C CNN
 F 3 "" H 8050 3000 30  0000 C CNN
 F 4 "311-4.7KLRCT-ND" V 8050 3000 60  0001 C CNN "DigikeyPart"
 	1    8050 3000
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	8050 3250 8050 3150
@@ -635,7 +633,7 @@ F 1 "GND" H 8050 3450 50  0000 C CNN
 F 2 "" H 8050 3600 60  0000 C CNN
 F 3 "" H 8050 3600 60  0000 C CNN
 	1    8050 3600
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	8050 3600 8050 3550
@@ -648,7 +646,7 @@ F 1 "+5V" H 8050 2940 50  0000 C CNN
 F 2 "" H 8050 2800 60  0000 C CNN
 F 3 "" H 8050 2800 60  0000 C CNN
 	1    8050 2800
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	8000 2200 8000 2450

@@ -1,4 +1,4 @@
-(kicad_pcb (version 4) (host pcbnew "(after 2015-mar-04 BZR unknown)-product")
+(kicad_pcb (version 4) (host pcbnew 4.0.2-1.fc23-product)
 
   (general
     (links 50)
@@ -37,7 +37,7 @@
   )
 
   (setup
-    (last_trace_width 0.2)
+    (last_trace_width 0.25)
     (user_trace_width 0.2)
     (trace_clearance 0.1)
     (zone_clearance 0.2)
@@ -90,7 +90,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory /home/oscu/Documents/Projects/KeyBoard/pcb2_plot/))
+      (outputdirectory ""))
   )
 
   (net 0 "")
@@ -161,7 +161,7 @@
     (uvia_drill 0.1)
   )
 
-  (module oscu_footprints:usb_pcb (layer F.Cu) (tedit 55EDC2A5) (tstamp 55E94C12)
+  (module keyboard2_footprints:usb_pcb (layer F.Cu) (tedit 55EDC2A5) (tstamp 55E94C12)
     (at 167 109)
     (path /55E5F48F)
     (fp_text reference J1 (at 0 7) (layer F.SilkS) hide
@@ -392,7 +392,7 @@
       (xy -9.920532 -1.897485) (xy -9.920356 -1.710484) (xy -9.920318 -1.50504) (xy -9.920318 -1.50504)) (layer F.SilkS) (width 0.1))
   )
 
-  (module oscu_footprints:R_0402_nosilk (layer F.Cu) (tedit 561AF1B2) (tstamp 55E92807)
+  (module keyboard2_footprints:R_0402_nosilk (layer F.Cu) (tedit 561AF1B2) (tstamp 55E92807)
     (at 157.75 113.25 270)
     (descr "Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0402")
@@ -419,7 +419,7 @@
     )
   )
 
-  (module oscu_footprints:R_0402_nosilk (layer F.Cu) (tedit 561AF1B2) (tstamp 55E92802)
+  (module keyboard2_footprints:R_0402_nosilk (layer F.Cu) (tedit 561AF1B2) (tstamp 55E92802)
     (at 156.25 113.25 270)
     (descr "Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0402")
@@ -446,7 +446,7 @@
     )
   )
 
-  (module oscu_footprints:R_0402_nosilk (layer F.Cu) (tedit 561AF1B2) (tstamp 55E927FD)
+  (module keyboard2_footprints:R_0402_nosilk (layer F.Cu) (tedit 561AF1B2) (tstamp 55E927FD)
     (at 157.75 104.75 90)
     (descr "Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0402")
@@ -473,7 +473,7 @@
     )
   )
 
-  (module oscu_footprints:R_0402_nosilk (layer F.Cu) (tedit 561AF1B2) (tstamp 55E927F8)
+  (module keyboard2_footprints:R_0402_nosilk (layer F.Cu) (tedit 561AF1B2) (tstamp 55E927F8)
     (at 156.25 104.75 90)
     (descr "Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0402")
@@ -500,7 +500,7 @@
     )
   )
 
-  (module oscu_footprints:R_0402_nosilk (layer F.Cu) (tedit 561AF1B2) (tstamp 55E927F3)
+  (module keyboard2_footprints:R_0402_nosilk (layer F.Cu) (tedit 561AF1B2) (tstamp 55E927F3)
     (at 163 108.5 180)
     (descr "Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0402")
@@ -527,7 +527,7 @@
     )
   )
 
-  (module oscu_footprints:R_0402_nosilk (layer F.Cu) (tedit 561AF1B2) (tstamp 55E927EE)
+  (module keyboard2_footprints:R_0402_nosilk (layer F.Cu) (tedit 561AF1B2) (tstamp 55E927EE)
     (at 163 110 180)
     (descr "Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0402")
@@ -554,7 +554,7 @@
     )
   )
 
-  (module oscu_footprints:button_smd_panasonic (layer F.Cu) (tedit 55E92939) (tstamp 55E890B1)
+  (module keyboard2_footprints:button_smd_panasonic (layer F.Cu) (tedit 55E92939) (tstamp 55E890B1)
     (at 152.25 109 180)
     (path /55E74282)
     (fp_text reference B1 (at 0 3.75 180) (layer F.SilkS) hide
@@ -577,7 +577,7 @@
       (net 12 GND))
   )
 
-  (module oscu_footprints:resonator_murata_smd (layer F.Cu) (tedit 55E9298B) (tstamp 55E5F2A9)
+  (module keyboard2_footprints:resonator_murata_smd (layer F.Cu) (tedit 55E9298B) (tstamp 55E5F2A9)
     (at 162 104.75 180)
     (path /55E5E91E)
     (fp_text reference X1 (at 0 2 180) (layer F.SilkS) hide
@@ -598,7 +598,7 @@
       (net 2 "Net-(U1-Pad2)"))
   )
 
-  (module oscu_footprints:LED_0603_nosilk (layer F.Cu) (tedit 55E9F42A) (tstamp 55ED18A8)
+  (module keyboard2_footprints:LED_0603_nosilk (layer F.Cu) (tedit 55E9F42A) (tstamp 55ED18A8)
     (at 150.25 104.75 180)
     (descr "LED 0603 smd package")
     (tags "LED led 0603 SMD smd SMT smt smdled SMDLED smtled SMTLED")
@@ -616,7 +616,7 @@
       (net 12 GND))
   )
 
-  (module oscu_footprints:LED_0603_nosilk (layer F.Cu) (tedit 55E9F42A) (tstamp 55ED18AD)
+  (module keyboard2_footprints:LED_0603_nosilk (layer F.Cu) (tedit 55E9F42A) (tstamp 55ED18AD)
     (at 154 104.75 180)
     (descr "LED 0603 smd package")
     (tags "LED led 0603 SMD smd SMT smt smdled SMDLED smtled SMTLED")
@@ -634,7 +634,7 @@
       (net 12 GND))
   )
 
-  (module oscu_footprints:LED_0603_nosilk (layer F.Cu) (tedit 55E9F42A) (tstamp 55ED18B2)
+  (module keyboard2_footprints:LED_0603_nosilk (layer F.Cu) (tedit 55E9F42A) (tstamp 55ED18B2)
     (at 150.25 113.25 180)
     (descr "LED 0603 smd package")
     (tags "LED led 0603 SMD smd SMT smt smdled SMDLED smtled SMTLED")
@@ -652,7 +652,7 @@
       (net 12 GND))
   )
 
-  (module oscu_footprints:LED_0603_nosilk (layer F.Cu) (tedit 55E9F42A) (tstamp 55ED18B7)
+  (module keyboard2_footprints:LED_0603_nosilk (layer F.Cu) (tedit 55E9F42A) (tstamp 55ED18B7)
     (at 154 113.25 180)
     (descr "LED 0603 smd package")
     (tags "LED led 0603 SMD smd SMT smt smdled SMDLED smtled SMTLED")
@@ -670,7 +670,7 @@
       (net 12 GND))
   )
 
-  (module oscu_footprints:connector_smd_round2 (layer B.Cu) (tedit 561A9BD2) (tstamp 561AA22F)
+  (module keyboard2_footprints:connector_smd_round2 (layer B.Cu) (tedit 561A9BD2) (tstamp 561AA22F)
     (at 155 109)
     (path /55E8A32F)
     (fp_text reference J2 (at 0 -7) (layer B.SilkS) hide
@@ -703,7 +703,7 @@
       (net 19 /RXD))
   )
 
-  (module oscu_footprints:qfn32_nosilk (layer F.Cu) (tedit 561AA218) (tstamp 55E94C25)
+  (module keyboard2_footprints:qfn32_nosilk (layer F.Cu) (tedit 561AA218) (tstamp 55E94C25)
     (at 158.75 109 270)
     (path /55E5F036)
     (fp_text reference U1 (at 0 -3.75 270) (layer F.SilkS) hide
@@ -1373,7 +1373,7 @@
       (xy 2.817833 4.548849)) (layer B.SilkS) (width 0.1))
   )
 
-  (module oscu_footprints:C_0402_nosilk (layer F.Cu) (tedit 561AC365) (tstamp 561AC531)
+  (module keyboard2_footprints:C_0402_nosilk (layer F.Cu) (tedit 561AC365) (tstamp 561AC531)
     (at 163 111.5)
     (descr "Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0402")
@@ -1400,7 +1400,7 @@
     )
   )
 
-  (module oscu_footprints:C_0402_nosilk (layer F.Cu) (tedit 561AC365) (tstamp 561AC53A)
+  (module keyboard2_footprints:C_0402_nosilk (layer F.Cu) (tedit 561AC365) (tstamp 561AC53A)
     (at 159.25 104.75 90)
     (descr "Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0402")
@@ -1427,7 +1427,7 @@
     )
   )
 
-  (module oscu_footprints:C_0402_nosilk (layer F.Cu) (tedit 561AC365) (tstamp 561AC54C)
+  (module keyboard2_footprints:C_0402_nosilk (layer F.Cu) (tedit 561AC365) (tstamp 561AC54C)
     (at 163 107)
     (descr "Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0402")
@@ -1454,7 +1454,7 @@
     )
   )
 
-  (module oscu_footprints:C_0402_nosilk (layer F.Cu) (tedit 561AC365) (tstamp 561AC93B)
+  (module keyboard2_footprints:C_0402_nosilk (layer F.Cu) (tedit 561AC365) (tstamp 561AC93B)
     (at 159.25 113.25 270)
     (descr "Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0402")
@@ -1481,7 +1481,7 @@
     )
   )
 
-  (module oscu_footprints:R_0402_nosilk (layer F.Cu) (tedit 561AF1B2) (tstamp 561AC945)
+  (module keyboard2_footprints:R_0402_nosilk (layer F.Cu) (tedit 561AF1B2) (tstamp 561AC945)
     (at 160.75 113.25 270)
     (descr "Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0402")
